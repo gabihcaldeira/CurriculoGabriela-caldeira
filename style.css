@@ -1,1 +1,9 @@
-
+body {
+  background-color:brown;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  color:silver;
+  font-family:Arial;
+}
+h1 {
+  font-size: 40px;
+}
