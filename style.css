@@ -1,6 +1,6 @@
 body {
   background-color:rgb(243, 145, 243);
-   background-image:  linear-gradient(to right,rgb(235, 138, 138),rgb(248, 197, 101),rgb(241, 240, 138),rgb(142, 238, 129),rgb(120, 168, 230),rgb(194, 133, 238),rgb(248, 175, 242));
+  background-image:  linear-gradient(to right,rgb(235, 138, 138),rgb(248, 197, 101),rgb(241, 240, 138),rgb(142, 238, 129),rgb(120, 168, 230),rgb(194, 133, 238),rgb(248, 175, 242));
   color:silver;
   font-family: cursive;
   font-size: 60px;
@@ -8,6 +8,6 @@ body {
   text-shadow: 10px 10px 20px rgb(78, 85, 85);
 }
 p {
-  color:black;
+  color:rgb(2, 2, 2);
   font-size: 100px;
 }
