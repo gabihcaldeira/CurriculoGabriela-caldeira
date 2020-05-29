@@ -1,9 +1,7 @@
 body {
-  background-color:brown;
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-  color:silver;
-  font-family:Arial;
-}
-h1 {
+  background-color:blueviolet;
+  background-image:  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  color:black;
+  font-family: Arial;
   font-size: 40px;
 }
