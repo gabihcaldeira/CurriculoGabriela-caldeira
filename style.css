@@ -1,7 +1,7 @@
 body {
   background-color:rgb(243, 145, 243);
    background-image:  linear-gradient(to right,rgb(235, 138, 138),rgb(248, 197, 101),rgb(241, 240, 138),rgb(142, 238, 129),rgb(120, 168, 230),rgb(194, 133, 238),rgb(248, 175, 242));
-  color:silver;
+  color: silver;
   font-family: Arial;
   font-size: 40px;
   text-align: center;
@@ -9,6 +9,6 @@ body {
  color:
 }
 p {
-  color:black;
-  font-size: 25px;
+  color: black;
+  font-size: 20px;
 }
