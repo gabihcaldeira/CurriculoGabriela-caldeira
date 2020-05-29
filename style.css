@@ -8,3 +8,7 @@ body {
   text-shadow: 3px 3px 5px rgb(78, 85, 85);
  color:
 }
+p {
+  color:black;
+  font-size: 25px;
+}
