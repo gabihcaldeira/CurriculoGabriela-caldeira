@@ -144,11 +144,6 @@
   color:white;
 }
 
-@media screen and (max-width:600px) {
-  .coluna, .colunas {
-    width: 100%;
- }
-}
 
 .far.fa-calendar-alt {color:rgb(189, 216, 236)}
 .fas.fa-user-graduate {color:rgb(130, 63, 143)}
