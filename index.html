@@ -5,13 +5,89 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/5872ce7186.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    Gabriela Caldeira
-    <p> I Love you Guys </p>
-       <i class="fas fa-cat"></i>
-       <i class="fas fa-grin-hearts"></i>
-       <i class="far fa-heart"></i>
+    <!-- pagina -->
+    <div class="page">
+
+      <!-- head -->
+      <div class="head">
+        <img class="ft1" src="foto.JPG" alt="Foto">
+        <h1> Olá, Seja Bem-Vindo! </h1>
+        <h2> Este é Meu Currículo </h2>
+      </div>
+
+      <button id="button" class="button" onclick="on()"> Social Media </button>
+        
+      <div class="row">
+        <div class="column">
+          <!-- coluna 1 -->
+          <div class="colunas">
+            <h2> Gabriela De Souza Caldeira </h2>
+            <p><i class="far fa-envelope"></i> gabihcaldeira@hotmail.com </p>
+            <p><i class="fas fa-mobile-alt"></i> <i class="fab fa-whatsapp"></i> (27) 99903-9212 </p>
+            <p><i class="fas fa-globe-americas"></i> Vila Velha, Espírito Santo - Brasil </p>
+            <hr>
+            <h4> Idiomas </h4>
+            <p class="en"> Inglês </p>
+              <div class="a">100%</div>
+            <p class="es"> Espanhol </p>
+              <div class="b">25%</div>
+            <p class="ge"> Alemão </p>
+              <div class="c">55%</div>
+            <hr>
+            <h4> Outras Habilidades </h4>
+            <p class="doc"> Word </p>
+              <div class="d">90%</div>
+            <p class="pptx"> PowerPoint </p>
+              <div class="e">50%</div>
+            <p class="exc"> Excel </p>
+              <div class="f">25%</div>
+          </div>
+          <!-- coluna 2 -->
+          <div class="coluna">
+            <h4><i class="fas fa-user-graduate"></i> Formação </h4>
+            <p><a href="https://www.uvv.br/">Universidade Vila Velha</a> (Vila Velha, ES) - Graduação em Engenharia Química </p>
+            </p><i class="far fa-calendar-alt"></i> 02/2013 - 07/2020</p>
+            
+            <p><a href="https://www.montana.edu/"> Montana State University </a> (Bozeman, MT) - Intercâmbio em Engenharia Química </p>
+              <p><i class="far fa-calendar-alt"></i> 08/2015 - 05/2016</p>
+
+            <p><a href="https://www.uark.edu/"> University Of Arkansas </a> (Fayetteville, AR) -  Pesquisa em Eletrodiálise de Bio-óleo de serragem  </p>
+            <p><i class="far fa-calendar-alt"></i> 06/2016 - 08/2016</p>
+            <hr>
+            <h4><i class="fas fa-book-open"></i> Cursos </h4>
+            <p> Comissário de Bordo - <a href="https://sites.google.com/view/firstclassaviacao"> First Class Escola de Aviação </a></p>
+            <p><i class="far fa-calendar-alt"></i> 04/2018 - 12/2018 </p>
+            <hr>
+            <h4><i class="fas fa-briefcase"></i> Experiências </h4>
+            <h5>ArcelorMittal Tubarão (Serra, ES) - Laboratório de Meio Ambiente </h5>
+            <p><i class="far fa-calendar-alt"></i> 01/2017 - 12/2017 </p>
+            <p style="text-align:justify">Auxílio em amostragem, análises físico-químicas de águas subterrâneas, superficiais, de mar, lagoas, efluentes de tratamento biológico, tratamento de esgoto e água potável, monitoramento atmosférico e participação na gestão técnica e da qualidade do laboratório de meio ambiente.</p> 
+            </div>
+          </div>
+          <!-- coluna 3 -->
+          <div class="colunas">
+            <h4 style="text-align:center"><i class="fas fa-user"></i> About Me </h4>
+            <p>Entre 2015 e 2016 realizei um intercâmbio nos Estados Unidos onde convivi durante um ano com pessoas com culturas e valores totalmente distintos, essa experiência me ensinou a respeitar e aprender com a divergência de opiniões e desenvolveu minha empatia.</p>
+            <p> Já em 2017 estagiei no laboratório físico-químico da Arcelormittal, onde desenvolvi competências como cumprimento de procedimentos, prazos e metas, trabalho em equipe, comunicação ativa e comportamento seguro.</p>
+            <p>Hoje em dia tenho me interessado por programação, o que me levou a cursar a matéria de Construção de Software para Web do curso de Sistemas de Informação na UVV, onde aprendi um pouco sobre as linguagens PHP, HTML, CSS, JavaScript entre outras.</p>
+            </div>
+          </div>
+        </div>
+        <!-- fim colunas -->
+
+        </div>
+        <!-- overlay -->
+      <div id="overlay" class="overlay" onclick="off()">
+        <div class="media">
+          <a href="https://www.facebook.com/gabriela.caldeira.965"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/gabihcaldeira/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    <!-- fim pagina -->
+    </div>
+  
   </body>
 </html>
